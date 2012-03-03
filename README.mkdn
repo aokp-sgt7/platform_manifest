@@ -1,0 +1,40 @@
+Android Open Kang Project (AOKP) for the Samsung GalaxyTab (P1000)
+==================================================================
+
+
+getting started
+---------------
+
+please see the [Android source page](http://source.android.com/source/index.html) for building
+instructions, including how to setup your build enviroment.
+
+to initialize your local repository use the following commands:
+
+$ repo init -u https://github.com/stimpz0r/platform_manifest.git -b master
+$ repo sync
+
+
+
+building
+--------
+
+after the sync is finished, please read the 
+[instructions from the Android site](http://s.android.com/source/building.html) on how to build.
+
+once you've read that, you can build with:
+
+$ ./build.sh
+
+this will compile everything and use the correct "-j#" flag. it will package
+up your rom into a recovery flashable zip, and compile kernels for 
+P1000/L/N, in both CwM flashable format, and a copy of the zImage.
+
+
+special thanks
+--------------
+
+this build would not be possible without TeamKang and the SGT7 ICS TE4M's
+hard work, be sure to check out their githubs:
+
+[AOKP Github](http://github.com/AOKP)
+[TE4M Github](http://github.com/sgt7)
