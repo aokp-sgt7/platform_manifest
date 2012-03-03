@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- modified for GalaxyTab build ... other devices removed to make a smaller/cleaner sync -->
 <manifest>
 
   <remote  name="aosp"
@@ -275,7 +274,7 @@
   
   <project path="vendor/samsung" name="stimpz0r/vendor_samsung" remote="gh" revision="master" />
   <!--<project path="vendor/imgtec" name="AOKP/vendor_imgtec" remote="gh" revision="master" />-->
-  <project path="vendor/aokp" name="AOKP/vendor_aokp" remote="gh" revision="ics" />
+  <project path="vendor/aokp" name="stimpz0r/vendor_aokp" remote="gh" revision="ics" />
   <!--<project path="vendor/moto" name="AOKP/vendor_moto" remote="gh" revision="ics" />
   <project path="vendor/hp/tenderloin" name="AOKP/vendor_hp_tenderloin" remote="gh" revision="aokp" />
   <project path="vendor/htc" name="AOKP/vendor_htc" remote="gh" revision="master" />-->
