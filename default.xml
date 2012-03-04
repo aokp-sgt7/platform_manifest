@@ -181,7 +181,7 @@
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/yaffs2" name="AOKP/external_yaffs2" remote="gh" revision="master" />
   <project path="external/zlib" name="AOKP/external_zlib" remote="gh" revision="master" />
-  <project path="frameworks/base" name="AOKP/frameworks_base" remote="gh" revision="4.0.3" />
+  <project path="frameworks/base" name="stimpz0r/frameworks_base" remote="gh" revision="4.0.3" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
   <project path="frameworks/compile/linkloader" name="platform/frameworks/compile/linkloader" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" remote="gh" revision="ics" />
@@ -230,7 +230,7 @@
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <!--<project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" /> # NFC not supported by GalaxyTab, ignore -->
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
-  <project path="packages/apps/Phone" name="AOKP/packages_apps_Phone" remote="gh" revision="master" />
+  <project path="packages/apps/Phone" name="stimpz0r/packages_apps_Phone" remote="gh" revision="master" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
@@ -284,7 +284,9 @@
 
   <project path="kernel/samsung/p1" name="sgt7/p1000-kernel-cm9" remote="gh" revision="android-samsung-2.6.35" />
   <project path="kernel/samsung/initramfs" name="sgt7/p1000-initramfs-cm9" remote="gh" revision="master" />
-  
+  <project path="build-scripts" name="stimpz0r/build-scripts" revision="master">
+    <copyfile src="build-scripts/build.sh" dest="build.sh" />
+  </project>  
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="gh" revision="ics" />
   <project path="system/su" name="AOKP/android_system_su" remote="gh" revision="ics" />
   <project path="packages/apps/Superuser" name="CyanogenMod/android_packages_apps_Superuser" remote="gh" revision="ics" />
