@@ -282,7 +282,7 @@
   <!--<project path="vendor/amazon/otter" name="AOKP/vendor_amazon_otter" remote="gh" revision="ics" />
   <project path="vendor/acer/a500" name="AOKP/vendor_acer_a500" remote="gh" revision="ics" />-->
 
-  <project path="kernel/samsung/p1" name="sgt7/p1000-kernel-cm9" remote="gh" revision="android-samsung-2.6.35" />
+  <project path="kernel/samsung/p1" name="stimpz0r/android_kernel_samsung_p1" remote="gh" revision="android-samsung-2.6.35" />
   <project path="kernel/samsung/initramfs" name="sgt7/p1000-initramfs-cm9" remote="gh" revision="master" />
   <project path="build-scripts" name="stimpz0r/build-scripts" revision="master">
     <copyfile src="build-scripts/build.sh" dest="build.sh" />
