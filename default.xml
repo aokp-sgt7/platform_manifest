@@ -284,7 +284,7 @@
 
   <project path="kernel/samsung/p1" name="stimpz0r/android_kernel_samsung_p1" remote="gh" revision="android-samsung-2.6.35" />
   <project path="kernel/samsung/initramfs" name="sgt7/p1000-initramfs-cm9" remote="gh" revision="master" />
-  <project path="build-scripts" name="stimpz0r/build-scripts" revision="master">
+  <project path="build-scripts" name="stimpz0r/build-scripts" remote="gh" revision="master">
     <copyfile src="build-scripts/build.sh" dest="build.sh" />
   </project>  
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="gh" revision="ics" />
