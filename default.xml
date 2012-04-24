@@ -308,7 +308,7 @@
 
   <project path="kernel/samsung/p1" name="CyanogenMod/android_kernel_samsung_p1" remote="gh" revision="android-samsung-2.6.35" />
   <project path="build-scripts" name="stimpz0r/build-scripts" remote="gh" revision="master">
-    <copyfile src="build-scripts/build.sh" dest="build.sh" />
+    <copyfile src="build.sh" dest="build.sh" />
   </project>  
 
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="gh" revision="ics" />
