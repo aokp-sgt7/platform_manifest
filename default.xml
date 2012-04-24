@@ -74,7 +74,8 @@
   <project path="device/samsung/tuna" name="AOKP/device_samsung_tuna" remote="gh" revision="ics" />
   <project path="device/samsung/vibrantmtd" name="AOKP/device_samsung_vibrantmtd" remote="gh" revision="master" />
   <project path="device/samsung/galaxytab7c" name="AOKP/device_samsung_galaxytab7c" remote="gh" revision="AOKP" /> -->
-  <project path="device/samsung/galaxytab" name="stimpz0r/device_samsung_galaxytab" remote="gh" revision="master"/>
+  <project path="device/samsung/p1" name="stimpz0r/android_device_samsung_p1" remote="gh" revision="ics"/>
+  <project path="device/samsung/p1-common" name="stimpz0r/android_device_samsung_p1-common" remote="gh" revision="ics"/>
 <!--  <project path="device/ti/panda" name="device/ti/panda" /> -->
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.0.4_r1.1"/>
   <project path="external/android-mock" name="platform/external/android-mock" remote="aosp" revision="refs/tags/android-4.0.4_r1.1"/>
@@ -231,7 +232,7 @@
   <project path="packages/apps/Browser" name="AOKP/packages_apps_Browser" remote="gh" revision="ics" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" remote="aosp" revision="refs/tags/android-4.0.4_r1.1"/>
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" remote="aosp" revision="refs/tags/android-4.0.4_r1.1"/>
-  <project path="packages/apps/Camera" name="AOKP/packages_apps_Camera" remote="gh" revision="ics" />
+  <project path="packages/apps/Camera" name="sbradymobile/android_packages_apps_Camera" remote="gh" revision="ics" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" remote="aosp" revision="refs/tags/android-4.0.4_r1.1"/>
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" remote="aosp" revision="refs/tags/android-4.0.4_r1.1"/>
   <project path="packages/apps/Contacts" name="AOKP/packages_apps_Contacts" remote="gh" revision="ics" />
@@ -253,6 +254,7 @@
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" remote="aosp" revision="refs/tags/android-4.0.4_r1.1"/>
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" remote="aosp" revision="refs/tags/android-4.0.4_r1.1"/>
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" remote="aosp" revision="refs/tags/android-4.0.4_r1.1"/>
+  <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="gh" revision="ics" />
   <project path="packages/apps/Settings" name="AOKP/packages_apps_Settings" remote="gh" revision="ics" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" remote="aosp" revision="refs/tags/android-4.0.4_r1.1"/>
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" remote="aosp" revision="refs/tags/android-4.0.4_r1.1"/>
@@ -291,7 +293,7 @@
   <project path="system/netd" name="platform/system/netd" remote="aosp" revision="refs/tags/android-4.0.4_r1.1"/>
   <project path="system/vold" name="AOKP/system_vold" remote="gh" revision="ics" />
   
-  <project path="vendor/samsung" name="stimpz0r/vendor_samsung" remote="gh" revision="master" />
+  <project path="vendor/samsung" name="sgt7/proprietary_vendor_samsung" remote="gh" revision="ics" />
   <project path="vendor/aokp" name="stimpz0r/vendor_aokp" remote="gh" revision="ics" />
 <!--  <project path="vendor/moto" name="AOKP/vendor_moto" remote="gh" revision="ics" />
   <project path="vendor/hp/tenderloin" name="AOKP/vendor_hp_tenderloin" remote="gh" revision="aokp" />
@@ -304,8 +306,7 @@
   <project path="vendor/qcom/opensource/omx/mm-core" name="AOKP/android_vendor_qcom_opensource_omx_mm-core" remote="gh" revision="ics" />
   <project path="vendor/qcom/opensource/omx/mm-video" name="AOKP/android_vendor_qcom_opensource_omx_mm-video" remote="gh" revision="ics" />
 
-  <project path="kernel/samsung/p1" name="stimpz0r/android-kernel-p1000" remote="gh" revision="master" />
-  <project path="kernel/samsung/initramfs" name="stimpz0r/android-initramfs-p1000" remote="gh" revision="master" />
+  <project path="kernel/samsung/p1" name="CyanogenMod/android_kernel_samsung_p1" remote="gh" revision="android-samsung-2.6.35" />
   <project path="build-scripts" name="stimpz0r/build-scripts" remote="gh" revision="master">
     <copyfile src="build-scripts/build.sh" dest="build.sh" />
   </project>  
