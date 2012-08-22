@@ -20,7 +20,7 @@
   <project path="bionic" name="AOKP/bionic" remote="gh" revision="ics" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="gh" revision="ics" />
+  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="gh" revision="cm-9.0.0" />
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="dalvik" name="platform/dalvik" remote="aosp" revision="refs/tags/android-4.0.4_r2.1" />
   <project path="development" name="AOKP/platform_development" remote="gh" revision="ics" />
@@ -253,7 +253,7 @@
   <project path="vendor/qcom/opensource/omx/mm-core" name="AOKP/android_vendor_qcom_opensource_omx_mm-core" remote="gh" revision="ics" />
   <project path="vendor/qcom/opensource/omx/mm-video" name="AOKP/android_vendor_qcom_opensource_omx_mm-video" remote="gh" revision="ics" />
 
-  <project path="kernel/samsung/p1" name="CyanogenMod/android_kernel_samsung_p1" remote="gh" revision="cm-9.0.0" />
+  <project path="kernel/samsung/p1" name="stimpz0r/android_kernel_samsung_p1-HumberOS" remote="gh" revision="cm-9.0.0" />
   <project path="kernel/samsung/p1c" name="jt1134/android_kernel_samsung_galaxytab-cdma" remote="gh" revision="ics" />
   <project path="build-scripts" name="aokp-sgt7/build-scripts" remote="gh" revision="master">
     <copyfile src="build.sh" dest="build.sh" />
