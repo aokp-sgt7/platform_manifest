@@ -255,7 +255,7 @@
 
   <project path="kernel/samsung/p1" name="stimpz0r/android_kernel_samsung_p1-HumberOS" remote="gh" revision="cm-9.0.0" />
   <project path="kernel/samsung/p1c" name="jt1134/android_kernel_samsung_galaxytab-cdma" remote="gh" revision="ics" />
-  <project path="build-scripts" name="aokp-sgt7/build-scripts" remote="gh" revision="master">
+  <project path="buildscripts" name="aokp-sgt7/build-scripts" remote="gh" revision="master">
     <copyfile src="build.sh" dest="build.sh" />
   </project>  
 
