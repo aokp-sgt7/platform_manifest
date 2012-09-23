@@ -21,7 +21,7 @@ instructions, including how to setup your build enviroment.
 
 to initialize your local repository use the following commands:
 
-    $ repo init -u https://github.com/aokp-sgt7/platform_manifest.git -b master
+    $ repo init -u https://github.com/aokp-sgt7/platform_manifest.git -b jb
     $ repo sync
 
 building
