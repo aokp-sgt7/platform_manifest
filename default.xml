@@ -326,6 +326,9 @@
   <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="jellybean" />
   <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="jellybean" />
 
+  <project path="packages/wallpapers/SGT7Walls" name="aokp-sgt7/packages_wallpapers_SGT7Walls" remote="gh" revision="jb" />
+  <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="aokp" revision="jellybean" />
+
 <!-- includes for SGT7 -->
   <project path="device/samsung/p1-common" name="aokp-sgt7/android_device_samsung_p1-common" remote="aokp" revision="jellybean"/>
   <project path="device/samsung/p1" name="aokp-sgt7/android_device_samsung_p1" remote="aokp" revision="jellybean"/>
