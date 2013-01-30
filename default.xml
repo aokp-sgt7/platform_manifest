@@ -350,6 +350,7 @@
 <!-- AOKP SGT7 repos -->
   <project path="buildscripts" name="aokp-sgt7/build-scripts" remote="aokp" revision="master">
     <copyfile src="build.sh" dest="build.sh" />
+  </project>
   <project path="frameworks/base" name="aokp-sgt7/frameworks_base" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/DeskClock" name="aokp-sgt7/packages_apps_DeskClock" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/ROMControl" name="aokp-sgt7/packages_apps_ROMControl" remote="aokp" revision="jb-mr1" />
