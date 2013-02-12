@@ -17,9 +17,6 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="AOKP/build" remote="aokp" revision="jb-mr1" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bionic" name="AOKP/bionic" remote="aokp" revision="jb-mr1" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
@@ -354,6 +351,9 @@
   <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers_v2" remote="aokp" revision="jb-mr1" />
 
 <!-- AOKP SGT7 repos -->
+  <project path="build" name="aokp-sgt7/build" remote="aokp" revision="jb-mr1" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
   <project path="buildscripts" name="aokp-sgt7/build-scripts" remote="aokp" revision="master">
     <copyfile src="build.sh" dest="build.sh" />
   </project>  
