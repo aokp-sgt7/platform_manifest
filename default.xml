@@ -72,7 +72,7 @@
   <project path="external/dnsmasq" name="AOKP/external_dnsmasq" remote="aokp" revision="jb-mr1" />
   <project path="external/doclava" name="platform/external/doclava" />
   <project path="external/dropbear" name="platform/external/dropbear" />
-  <project path="external/e2fsprogs" name="platform/external/e2fsprogs" />
+  <project path="external/e2fsprogs" name="AOKP/external_e2fsprogs" remote="aokp" revision="jb-mr1" />
   <project path="external/easymock" name="platform/external/easymock" />
   <project path="external/eclipse-basebuilder" name="platform/external/eclipse-basebuilder" />
   <project path="external/eclipse-windowbuilder" name="platform/external/eclipse-windowbuilder" />
@@ -114,6 +114,8 @@
   <project path="external/jsr305" name="platform/external/jsr305" />
   <project path="external/junit" name="platform/external/junit" />
   <project path="external/kernel-headers" name="platform/external/kernel-headers" />
+  <project path="external/koush/Superuser" name="AOKP/external_koush_Superuser" remote="aokp" revision="master" />
+  <project path="external/koush/Widgets" name="AOKP/external_koush_Widgets" remote="aokp" revision="master" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" />
   <project path="external/libffi" name="platform/external/libffi" />
   <project path="external/libgsm" name="platform/external/libgsm" />
@@ -171,7 +173,6 @@
   <project path="external/replicaisland" name="platform/external/replicaisland" />
   <project path="external/safe-iop" name="platform/external/safe-iop" />
   <project path="external/sepolicy" name="platform/external/sepolicy" />
-  <project path="external/skia" name="aokp-sgt7/external_skia" remote="aokp" revision="jb-mr1" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" />
   <project path="external/speex" name="platform/external/speex" />
@@ -226,7 +227,7 @@
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
   <project path="gdk" name="platform/gdk" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="cm" revision="cm-10.1" />
-  <project path="hardware/invensense" name="platform/hardware/invensense" revision="refs/tags/android-4.2.1_r1.2" />
+  <project path="hardware/invensense" name="platform/hardware/invensense" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="cm" revision="cm-10.1" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cm" revision="cm-10.1" />
   <project path="hardware/msm7k" name="android_hardware_msm7k" remote="cm" revision="cm-10.1" />
@@ -237,16 +238,16 @@
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm" revision="cm-10.1" />
-  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" revision="refs/tags/android-4.2.1_r1" />
+  <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="cm" revision="cm-10.1" />
-  <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" revision="refs/tags/android-4.2.1_r1.2" />
+  <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" />
   <project path="hardware/qcom/power" name="AOKP/hardware_qcom_power" remote="aokp" revision="jb-mr1" />
-  <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" revision="refs/tags/android-4.2.1_r1.2" />
-  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" revision="refs/tags/android-4.2.1_r1.2" />
+  <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" />
+  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" />
   <project path="hardware/ril" name="android_hardware_ril" remote="cm" revision="cm-10.1" />
   <project path="hardware/samsung" name="android_hardware_samsung" remote="cm" revision="cm-10.1" />
-  <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" revision="refs/tags/android-4.2.1_r1.2" />
-  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" revision="refs/tags/android-4.2.1_r1.2" />
+  <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" />
+  <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
   <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="cm" revision="cm-10.1" />
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="cm-10.1" />
   <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="cm" revision="cm-10.1" />
@@ -362,6 +363,7 @@
   <project path="buildscripts" name="aokp-sgt7/build-scripts" remote="aokp" revision="master">
     <copyfile src="build.sh" dest="build.sh" />
   </project>  
+  <project path="external/skia" name="aokp-sgt7/external_skia" remote="aokp" revision="jb-mr1" />
   <project path="frameworks/base" name="aokp-sgt7/frameworks_base" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/DeskClock" name="aokp-sgt7/packages_apps_DeskClock" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/ROMControl" name="aokp-sgt7/packages_apps_ROMControl" remote="aokp" revision="jb-mr1" />
