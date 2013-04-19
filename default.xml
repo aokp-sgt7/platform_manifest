@@ -5,12 +5,15 @@
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
 
+  <remote  name="aokp-sgt7"
+           fetch="https://github.com/" />
+
   <remote  name="aokp"
            fetch="https://github.com/"
            review="gerrit.sudoservers.com" />
 
   <remote  name="cm"
-           fetch="https://github.com/CyanogenMod/"
+           fetch="https://github.com/"
            review="review.cyanogenmod.com" />
 
   <remote  name="omapzoom"
@@ -25,14 +28,14 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
-  <project path="bionic" name="android_bionic" remote="cm" revision="cm-10.1" />
+  <project path="bionic" name="CyanogenMod/android_bionic" remote="cm" revision="cm-10.1" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="android_bootable_recovery" remote="cm" revision="cm-10.1" />
+  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="cm" revision="cm-10.1" />
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="platform/dalvik" />
   <project path="development" name="platform/development" />
-  <project path="device/common" name="android_device_common" remote="cm" revision="cm-10.1" />
+  <project path="device/common" name="CyanogenMod/android_device_common" remote="cm" revision="cm-10.1" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
   <project path="device/generic/armv7-a" name="device/generic/armv7-a" />
   <project path="device/generic/common" name="device/generic/common" />
@@ -58,7 +61,7 @@
   <project path="external/bluetooth/bluedroid" name="AOKP/external_bluetooth_bluedroid" remote="aokp" revision="jb-mr1" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
-  <project path="external/busybox" name="android_external_busybox" remote="cm" revision="cm-10.1" />
+  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="cm" revision="cm-10.1" />
   <project path="external/bzip2" name="platform/external/bzip2" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" />
   <project path="external/chromium" name="platform/external/chromium" />
@@ -195,12 +198,12 @@
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
   <project path="external/wpa_supplicant_6" name="platform/external/wpa_supplicant_6" />
-  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="cm" revision="cm-10.1" />
+  <project path="external/wpa_supplicant_8" name="CyanogenMod/android_external_wpa_supplicant_8" remote="cm" revision="cm-10.1" />
   <project path="external/wpa_supplicant_8_ti" name="platform/external/wpa_supplicant_8_ti" remote="omapzoom" revision="p-jb-mr1-release" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" />
-  <project path="external/yaffs2" name="android_external_yaffs2" remote="cm" revision="cm-10.1" />
-  <project path="external/zlib" name="android_external_zlib" remote="cm" revision="cm-10.1" />
+  <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" remote="cm" revision="cm-10.1" />
+  <project path="external/zlib" name="CyanogenMod/android_external_zlib" remote="cm" revision="cm-10.1" />
   <project path="external/zxing" name="platform/external/zxing" />
   <project path="frameworks/av" name="AOKP/frameworks_av" remote="aokp" revision="jb-mr1" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" />
@@ -219,38 +222,38 @@
   <project path="frameworks/opt/mailcommon" name="platform/frameworks/opt/mailcommon" />
   <project path="frameworks/opt/mms" name="platform/frameworks/opt/mms" />
   <project path="frameworks/opt/photoviewer" name="platform/frameworks/opt/photoviewer" />
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="cm" revision="cm-10.1" />
+  <project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" remote="cm" revision="cm-10.1" />
   <project path="frameworks/opt/vcard" name="platform/frameworks/opt/vcard" />
   <project path="frameworks/rs" name="AOKP/frameworks_rs" remote="aokp" revision="jb-mr1" />
   <project path="frameworks/support" name="platform/frameworks/support" />
   <project path="frameworks/testing" name="platform/frameworks/testing" />
   <project path="frameworks/wilhelm" name="platform/frameworks/wilhelm" />
   <project path="gdk" name="platform/gdk" />
-  <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="cm" revision="cm-10.1" />
+  <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" remote="cm" revision="cm-10.1" />
   <project path="hardware/invensense" name="platform/hardware/invensense" />
-  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="cm" revision="cm-10.1" />
-  <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="cm" revision="cm-10.1" />
-  <project path="hardware/msm7k" name="android_hardware_msm7k" remote="cm" revision="cm-10.1" />
-  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="cm" revision="cm-10.1" />
-  <project path="hardware/qcom/audio-caf" name="android_hardware_qcom_audio-caf" remote="cm" revision="cm-10.1" />
-  <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" remote="cm" revision="cm-10.1" />
-  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="cm" revision="cm-10.1" />
-  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="cm" revision="cm-10.1" />
-  <project path="hardware/qcom/display-caf" name="android_hardware_qcom_display-caf" remote="cm" revision="cm-10.1" />
-  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="cm" revision="cm-10.1" />
+  <project path="hardware/libhardware" name="CyanogenMod/android_hardware_libhardware" remote="cm" revision="cm-10.1" />
+  <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" remote="cm" revision="cm-10.1" />
+  <project path="hardware/msm7k" name="CyanogenMod/android_hardware_msm7k" remote="cm" revision="cm-10.1" />
+  <project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" remote="cm" revision="cm-10.1" />
+  <project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" remote="cm" revision="cm-10.1" />
+  <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" remote="cm" revision="cm-10.1" />
+  <project path="hardware/qcom/camera" name="CyanogenMod/android_hardware_qcom_camera" remote="cm" revision="cm-10.1" />
+  <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" remote="cm" revision="cm-10.1" />
+  <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" remote="cm" revision="cm-10.1" />
+  <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/keymaster" name="platform/hardware/qcom/keymaster" />
-  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="cm" revision="cm-10.1" />
+  <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" remote="cm" revision="cm-10.1" />
   <project path="hardware/qcom/msm8960" name="platform/hardware/qcom/msm8960" />
   <project path="hardware/qcom/power" name="AOKP/hardware_qcom_power" remote="aokp" revision="jb-mr1" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" />
   <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" />
-  <project path="hardware/ril" name="android_hardware_ril" remote="cm" revision="cm-10.1" />
-  <project path="hardware/samsung" name="android_hardware_samsung" remote="cm" revision="cm-10.1" />
+  <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="cm" revision="cm-10.1" />
+  <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="cm" revision="cm-10.1" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" />
-  <project path="hardware/ti/omap4xxx" name="android_hardware_ti_omap4xxx" remote="cm" revision="cm-10.1" />
-  <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="cm" revision="cm-10.1" />
-  <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="cm" revision="cm-10.1" />
+  <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" remote="cm" revision="cm-10.1" />
+  <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="cm" revision="cm-10.1" />
+  <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" remote="cm" revision="cm-10.1" />
   <project path="libcore" name="platform/libcore" />
   <project path="libnativehelper" name="platform/libnativehelper" />
   <project path="ndk" name="platform/ndk" />
@@ -266,7 +269,7 @@
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
-  <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="cm" revision="cm-10.1" />
+  <project path="packages/apps/Gallery2" name="CyanogenMod/android_packages_apps_Gallery2" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
   <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
@@ -314,7 +317,7 @@
   <project path="packages/wallpapers/NoiseField" name="platform/packages/wallpapers/NoiseField" />
   <project path="packages/wallpapers/PhaseBeam" name="platform/packages/wallpapers/PhaseBeam" />
   <project path="pdk" name="platform/pdk" />
-  <project path="prebuilt" name="android_prebuilt" remote="cm" revision="cm-10.1" />
+  <project path="prebuilt" name="CyanogenMod/android_prebuilt" remote="cm" revision="cm-10.1" />
   <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="darwin" />
   <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="darwin" />
   <project path="prebuilts/clang/linux-x86/3.1" name="platform/prebuilts/clang/linux-x86/3.1" groups="linux" />
@@ -341,7 +344,7 @@
   <project path="sdk" name="platform/sdk" />
   <project path="system/bluetooth" name="platform/system/bluetooth" />
   <project path="system/core" name="AOKP/system_core" remote="aokp" revision="jb-mr1" />
-  <project path="system/extras" name="android_system_extras" remote="cm" revision="cm-10.1" />
+  <project path="system/extras" name="CyanogenMod/android_system_extras" remote="cm" revision="cm-10.1" />
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/security" name="platform/system/security" />
@@ -352,9 +355,9 @@
   <project path="vendor/aokp/bot" name="AOKP/pseudo_buildbot" remote="aokp" revision="jb-mr1" />
 
   <project path="vendor/tmobile/apps/ThemeChooser" name="AOKP/themes-platform-vendor-tmobile-apps-ThemeChooser" remote="aokp" revision="jb-mr1" />
-  <project path="vendor/tmobile/libs/com.tmobile.themes" name="android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-10.1" />
-  <project path="vendor/tmobile/providers/ThemeManager" name="android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="cm-10.1" />
-  <project path="vendor/tmobile/products/themes" name="android_vendor_tmobile_products_themes" remote="cm" revision="cm-10.1" />
+  <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" remote="cm" revision="cm-10.1" />
+  <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" remote="cm" revision="cm-10.1" />
+  <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" remote="cm" revision="cm-10.1" />
 
   <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers_v2" remote="aokp" revision="jb-mr1" />
 
@@ -362,26 +365,26 @@
   <project path="buildscripts" name="aokp-sgt7/build-scripts" remote="aokp" revision="master">
     <copyfile src="build.sh" dest="build.sh" />
   </project>  
-  <project path="external/skia" name="aokp-sgt7/external_skia" remote="aokp" revision="jb-mr1" />
-  <project path="frameworks/base" name="aokp-sgt7/frameworks_base" remote="aokp" revision="jb-mr1" />
-  <project path="packages/apps/DeskClock" name="aokp-sgt7/packages_apps_DeskClock" remote="aokp" revision="jb-mr1" />
-  <project path="packages/apps/PerformanceControl" name="aokp-sgt7/packages_apps_PerformanceControl" remote="aokp" revision="jb-mr1" />
-  <project path="packages/apps/ROMControl" name="aokp-sgt7/packages_apps_ROMControl" remote="aokp" revision="jb-mr1" />
-  <project path="packages/apps/Trebuchet" name="aokp-sgt7/android_packages_apps_Trebuchet" remote="aokp" revision="cm-10.1" />
-  <project path="packages/wallpapers/SGT7Walls" name="aokp-sgt7/packages_wallpapers_SGT7Walls" remote="aokp" revision="jb-mr1" />
-  <project path="vendor/aokp" name="aokp-sgt7/vendor_aokp" remote="aokp" revision="jb-mr1" />
+  <project path="external/skia" name="aokp-sgt7/external_skia" remote="aokp-sgt7" revision="jb-mr1" />
+  <project path="frameworks/base" name="aokp-sgt7/frameworks_base" remote="aokp-sgt7" revision="jb-mr1" />
+  <project path="packages/apps/DeskClock" name="aokp-sgt7/packages_apps_DeskClock" remote="aokp-sgt7" revision="jb-mr1" />
+  <project path="packages/apps/PerformanceControl" name="aokp-sgt7/packages_apps_PerformanceControl" remote="aokp-sgt7" revision="jb-mr1" />
+  <project path="packages/apps/ROMControl" name="aokp-sgt7/packages_apps_ROMControl" remote="aokp-sgt7" revision="jb-mr1" />
+  <project path="packages/apps/Trebuchet" name="aokp-sgt7/android_packages_apps_Trebuchet" remote="aokp-sgt7" revision="cm-10.1" />
+  <project path="packages/wallpapers/SGT7Walls" name="aokp-sgt7/packages_wallpapers_SGT7Walls" remote="aokp-sgt7" revision="jb-mr1" />
+  <project path="vendor/aokp" name="aokp-sgt7/vendor_aokp" remote="aokp-sgt7" revision="jb-mr1" />
 
 <!-- CyanogenMod apps repos -->
-  <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="cm" revision="cm-10.1" />
-  <project path="packages/apps/CMFileManager" name="android_packages_apps_CMFileManager" remote="cm" revision="cm-10.1" />
-  <project path="packages/apps/DSPManager" name="android_packages_apps_DSPManager" remote="cm" revision="cm-10.1" />
-  <project path="packages/apps/LockClock" name="android_packages_apps_LockClock" remote="cm" revision="cm-10.1" />
+  <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" remote="cm" revision="cm-10.1" />
+  <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="cm" revision="cm-10.1" />
+  <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="cm" revision="cm-10.1" />
+  <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" remote="cm" revision="cm-10.1" />
 
 <!-- Samsung Galaxy Tab GT-P1000 (OG) repos -->
-  <project path="device/samsung/p1-common" name="aokp-sgt7/android_device_samsung_p1-common" remote="aokp" revision="cm-10.1"/>
-  <project path="device/samsung/p1" name="aokp-sgt7/android_device_samsung_p1" remote="aokp" revision="cm-10.1"/>
-  <project path="device/samsung/p1c" name="aokp-sgt7/android_device_samsung_p1c" remote="aokp" revision="cm-10.1"/>
-  <project path="kernel/samsung/p1" name="aokp-sgt7/android_kernel_samsung_p1" remote="aokp" revision="cm-10.1" />
-  <project path="packages/apps/SamsungServiceMode" name="android_packages_apps_SamsungServiceMode" remote="cm" revision="cm-10.1" />
-  <project path="vendor/samsung" name="aokp-sgt7/proprietary_vendor_samsung" remote="aokp" revision="cm-10.1" />
+  <project path="device/samsung/p1-common" name="aokp-sgt7/android_device_samsung_p1-common" remote="aokp-sgt7" revision="cm-10.1"/>
+  <project path="device/samsung/p1" name="aokp-sgt7/android_device_samsung_p1" remote="aokp-sgt7" revision="cm-10.1"/>
+  <project path="device/samsung/p1c" name="aokp-sgt7/android_device_samsung_p1c" remote="aokp-sgt7" revision="cm-10.1"/>
+  <project path="kernel/samsung/p1" name="aokp-sgt7/android_kernel_samsung_p1" remote="aokp-sgt7" revision="cm-10.1" />
+  <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="cm" revision="cm-10.1" />
+  <project path="vendor/samsung" name="aokp-sgt7/proprietary_vendor_samsung" remote="aokp-sgt7" revision="cm-10.1" />
 </manifest>
