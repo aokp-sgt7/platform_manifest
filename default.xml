@@ -275,7 +275,6 @@
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="AOKP/packages_apps_Nfc" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/PackageInstaller" name="AOKP/packages_apps_PackageInstaller" remote="aokp" revision="jb-mr1" />
-  <project path="packages/apps/PerformanceControl" name="AOKP/packages_apps_PerformanceControl" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Phone" name="AOKP/packages_apps_Phone" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
@@ -366,6 +365,7 @@
   <project path="external/skia" name="aokp-sgt7/external_skia" remote="aokp" revision="jb-mr1" />
   <project path="frameworks/base" name="aokp-sgt7/frameworks_base" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/DeskClock" name="aokp-sgt7/packages_apps_DeskClock" remote="aokp" revision="jb-mr1" />
+  <project path="packages/apps/PerformanceControl" name="aokp-sgt7/packages_apps_PerformanceControl" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/ROMControl" name="aokp-sgt7/packages_apps_ROMControl" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Trebuchet" name="aokp-sgt7/android_packages_apps_Trebuchet" remote="aokp" revision="cm-10.1" />
   <project path="packages/wallpapers/SGT7Walls" name="aokp-sgt7/packages_wallpapers_SGT7Walls" remote="aokp" revision="jb-mr1" />
