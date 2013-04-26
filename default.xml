@@ -10,7 +10,7 @@
 
   <remote  name="aokp"
            fetch="https://github.com/"
-           review="gerrit.sudoservers.com" />
+           review="gerrit.aokp.co" />
 
   <remote  name="cm"
            fetch="https://github.com/"
@@ -279,11 +279,11 @@
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="AOKP/packages_apps_Nfc" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/PackageInstaller" name="AOKP/packages_apps_PackageInstaller" remote="aokp" revision="jb-mr1" />
+  <project path="packages/apps/PermissionsManager" name="AOKP/packages_apps_PermissionsManager" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Phone" name="AOKP/packages_apps_Phone" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="AOKP/packages_apps_QuickSearchBox" remote="aokp" revision="jb-mr1" />
-  <project path="packages/apps/Settings" name="AOKP/packages_apps_Settings" remote="aokp" revision="jb-mr1" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -368,9 +368,11 @@
   </project>  
   <project path="external/skia" name="aokp-sgt7/external_skia" remote="aokp-sgt7" revision="jb-mr1" />
   <project path="frameworks/base" name="aokp-sgt7/frameworks_base" remote="aokp-sgt7" revision="jb-mr1" />
+  <project path="packages/apps/AboutAOKPSGT7" name="aokp-sgt7/packages_apps_AboutAOKPSGT7" remote="aokp-sgt7" revision="master" />
   <project path="packages/apps/DeskClock" name="aokp-sgt7/packages_apps_DeskClock" remote="aokp-sgt7" revision="jb-mr1" />
   <project path="packages/apps/PerformanceControl" name="aokp-sgt7/packages_apps_PerformanceControl" remote="aokp-sgt7" revision="jb-mr1" />
   <project path="packages/apps/ROMControl" name="aokp-sgt7/packages_apps_ROMControl" remote="aokp-sgt7" revision="jb-mr1" />
+  <project path="packages/apps/Settings" name="aokp-sgt7/packages_apps_Settings" remote="aokp-sgt7" revision="jb-mr1" />
   <project path="packages/apps/Trebuchet" name="aokp-sgt7/android_packages_apps_Trebuchet" remote="aokp-sgt7" revision="cm-10.1" />
   <project path="packages/wallpapers/SGT7Walls" name="aokp-sgt7/packages_wallpapers_SGT7Walls" remote="aokp-sgt7" revision="jb-mr1" />
   <project path="vendor/aokp" name="aokp-sgt7/vendor_aokp" remote="aokp-sgt7" revision="jb-mr1" />
