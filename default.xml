@@ -24,9 +24,6 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="AOKP/build" remote="aokp" revision="jb-mr1" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
   <project path="abi/cpp" name="platform/abi/cpp" />
   <project path="bionic" name="CyanogenMod/android_bionic" remote="cm" revision="cm-10.1" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
@@ -363,12 +360,16 @@
   <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers_v2" remote="aokp" revision="jb-mr1" />
 
 <!-- AOKP SGT7 repos -->
-  <project path="buildscripts" name="aokp-sgt7/build-scripts" remote="aokp" revision="master">
+  <project path="build" name="aokp-sgt7/build" remote="aokp-sgt7" revision="jb-mr1" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+  <project path="buildscripts" name="aokp-sgt7/build-scripts" remote="aokp-sgt7" revision="master">
     <copyfile src="build.sh" dest="build.sh" />
   </project>  
   <project path="external/skia" name="aokp-sgt7/external_skia" remote="aokp-sgt7" revision="jb-mr1" />
   <project path="frameworks/base" name="aokp-sgt7/frameworks_base" remote="aokp-sgt7" revision="jb-mr1" />
   <project path="packages/apps/AboutAOKPSGT7" name="aokp-sgt7/packages_apps_AboutAOKPSGT7" remote="aokp-sgt7" revision="master" />
+  <project path="packages/apps/Apollo" name="aokp-sgt7/android_packages_apps_Apollo" remote="aokp-sgt7" revision="cm-10.1" />
   <project path="packages/apps/DeskClock" name="aokp-sgt7/packages_apps_DeskClock" remote="aokp-sgt7" revision="jb-mr1" />
   <project path="packages/apps/PerformanceControl" name="aokp-sgt7/packages_apps_PerformanceControl" remote="aokp-sgt7" revision="jb-mr1" />
   <project path="packages/apps/ROMControl" name="aokp-sgt7/packages_apps_ROMControl" remote="aokp-sgt7" revision="jb-mr1" />
@@ -378,7 +379,6 @@
   <project path="vendor/aokp" name="aokp-sgt7/vendor_aokp" remote="aokp-sgt7" revision="jb-mr1" />
 
 <!-- CyanogenMod apps repos -->
-  <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" remote="cm" revision="cm-10.1" />
