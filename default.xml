@@ -398,7 +398,7 @@
   <project path="device/samsung/p1-common" name="aokp-sgt7/android_device_samsung_p1-common" remote="aokp-sgt7" revision="cm-10.1"/>
   <project path="device/samsung/p1" name="aokp-sgt7/android_device_samsung_p1" remote="aokp-sgt7" revision="cm-10.1"/>
   <project path="device/samsung/p1c" name="aokp-sgt7/android_device_samsung_p1c" remote="aokp-sgt7" revision="cm-10.1"/>
-  <project path="kernel/samsung/aries" name="humberos/android_kernel_samsung_aries" remote="cm" revision="cm-10.1" />
+  <project path="kernel/samsung/aries" name="aokp-sgt7/android_kernel_samsung_aries" remote="cm" revision="cm-10.1" />
   <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="cm" revision="cm-10.1" />
   <project path="vendor/samsung" name="aokp-sgt7/proprietary_vendor_samsung" remote="aokp-sgt7" revision="cm-10.1" />
 </manifest>
