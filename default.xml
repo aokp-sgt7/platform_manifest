@@ -28,7 +28,6 @@
   <project path="bionic" name="CyanogenMod/android_bionic" remote="cm" revision="cm-10.1" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="TeamWin/Team-Win-Recovery-Project" remote="aokp-sgt7" revision="twrp2.5" />
   <project path="cts" name="platform/cts" />
   <project path="dalvik" name="AOKP/dalvik" remote="aokp" revision="jb-mr1" />
   <project path="development" name="platform/development" />
@@ -369,6 +368,7 @@
   <project path="packages/wallpapers/SwagPapers" name="AOKP/packages_wallpapers_SwagPapers_v2" remote="aokp" revision="jb-mr1" />
 
 <!-- AOKP SGT7 repos -->
+  <project path="bootable/recovery" name="aokp-sgt7/Team-Win-Recovery-Project" remote="aokp-sgt7" revision="twrp2.5" />
   <project path="build" name="aokp-sgt7/build" remote="aokp-sgt7" revision="jb-mr1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
