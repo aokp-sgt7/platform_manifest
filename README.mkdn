@@ -1,10 +1,10 @@
-[[ :: AOKP SGT7 :: ]] 
+[[ :: AOKP SGT7 :: ]]
 =====================
 unofficial + modified AOKP for the Samsung Galaxy Tab
 
 introduction
 ------------
-this is AOKP for the Samsung Galaxy Tab - GT-P1000/L/N (GSM) + SCH-I800/SPH-P100 (CDMA) ... 
+this is AOKP for the Samsung Galaxy Tab - GT-P1000/L/N (GSM) + SCH-I800/SPH-P100 (CDMA) ...
 but its also a lot more!
 
 this build includes features from the SGT7 TE4M's unofficial builds of CM9, and other features / fixes
@@ -21,12 +21,12 @@ instructions, including how to setup your build enviroment.
 
 to initialize your local repository use the following commands:
 
-    $ repo init -u https://github.com/aokp-sgt7/platform_manifest.git -b jb-mr1
+    $ repo init -u https://github.com/aokp-sgt7/platform_manifest.git -b jb-mr2
     $ repo sync
 
 building
 --------
-after the sync is finished, please read the 
+after the sync is finished, please read the
 [instructions from the Android site](http://s.android.com/source/building.html) on how to build.
 
 once you've read that, you can build with:
@@ -38,7 +38,7 @@ up your rom into a recovery flashable zip, and compile kernels for in a CwM flas
 
 for usage details on the build script or to learn more about it type:
 
-    $ ./build.sh 
+    $ ./build.sh
 
 special thanks
 --------------
@@ -46,4 +46,5 @@ this build would not be possible without TeamKang and the SGT7 TE4M's
 hard work, be sure to check out their githubs:
 
 [AOKP Github](http://github.com/AOKP)
-[TE4M Github](http://github.com/sgt7)
+
+[SGT7 TE4M Github](http://github.com/sgt7)
