@@ -190,6 +190,7 @@
   <project path="external/robolectric" name="platform/external/robolectric" />
   <project path="external/safe-iop" name="platform/external/safe-iop" groups="pdk" />
   <project path="external/sepolicy" name="CyanogenMod/android_external_sepolicy" remote="cm" revision="cm-10.2" />
+  <project path="external/skia" name="CyanogenMod/android_external_skia" remote="cm" revision="cm-10.2" />
   <project path="external/smack" name="platform/external/smack" />
   <project path="external/smali" name="platform/external/smali" />
   <project path="external/sonivox" name="platform/external/sonivox" groups="pdk" />
@@ -408,7 +409,6 @@
   <project path="buildscripts" name="aokp-sgt7/build-scripts" remote="aokp-sgt7" revision="jb-mr2">
     <copyfile src="build.sh" dest="build.sh" />
   </project>
-  <project path="external/skia" name="aokp-sgt7/external_skia" remote="aokp-sgt7" revision="jb-mr2" />
   <project path="frameworks/base" name="aokp-sgt7/frameworks_base" remote="aokp-sgt7" revision="jb-mr2" />
   <project path="packages/apps/AboutAOKPSGT7" name="aokp-sgt7/packages_apps_AboutAOKPSGT7" remote="aokp-sgt7" revision="master" />
   <project path="packages/apps/Apollo" name="aokp-sgt7/android_packages_apps_Apollo" remote="aokp-sgt7" revision="cm-10.2" />
